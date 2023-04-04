@@ -1,0 +1,39 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,500&display=swap');
+
+*{
+    margin : 0;
+    padding : 0; 
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header h1{
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 2px;
+    color: #4756df;
+}
+header{
+    padding: 20px 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fcfcfc;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #4756df;
+}
+nav ul li a:hover{
+    color: #ff7235;
+}
