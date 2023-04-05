@@ -94,7 +94,7 @@ footer{
 #about-me{
     max-width: 1400px;
     margin: 0 100px;
-    margin-top: 120px;
+    margin-top: 100px;
     padding: 0 140px;
     text-align: justify;
 }
@@ -105,7 +105,7 @@ footer{
     background-color: #b0b5e7;
     box-sizing: content-box;
     width: 200px;
-    height: 50px;
+    height: 50px; 
     border-radius: 40px;   
 }
 .container p{
@@ -128,27 +128,20 @@ footer{
     align-items: center;
     background-color: #b0b5e7;
     box-sizing: content-box;
-    width: 250px;
-    height: 50px;
+    width: 250px; 
+    height: 50px; 
     border-radius: 40px;   
 }
-
 #artikel-content{
     max-width: 1400px;
-    margin: 100px 100px;
+    margin: 0 100px;
+    margin-top: 100px;
     padding: 0 140px;
     text-align: justify;
 }
-#awalan p{
+#artikel-content p{
     margin: 5px 0;
     font-size: 18px;
-}
-#awalan h1{
-    background-color: #b0b5e7;
-    box-sizing: content-box;
-    width: 450px;
-    height: 50px;
-    border-radius: 30px; 
 }
 .artikel{
     font-size: 18px;
@@ -156,12 +149,33 @@ footer{
 .artikel dt a{
     color: black;
     text-decoration: none;
+    background-color: #b0b5e7;
+    box-sizing: content-box;
+    border-radius: 30px; 
 }
 .artikel dt a:hover{
     color:  #ff7235;
 }
 .artikel dd {
     padding-left: 15px;
+}
+
+#project-content{
+    max-width: 1400px;
+    margin: 0 100px;
+    margin-top: 100px;
+    padding: 0 140px;
+    text-align: justify;
+}
+
+#project-content img{
+    max-width: 700px;
+    display: block;
+    margin: 5px auto;
+    border-radius: 20px;
+}
+#project-content p{    
+    font-size: 18px;
 }
 
 
