@@ -10,17 +10,20 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: whitesmoke;
+    min-height: 100vh; 
 }
 header h1{
     font-family: 'Jost', sans-serif;
     letter-spacing: 2px;
     color: #4756df;
+    font-size: 20px;
 }
 header{
-    padding: 20px 70px;
+    /* padding: 20px 70px; */
     display: flex;
     position: fixed;
     width: 100%;
+    height: 10%;
     justify-content: space-around;
     align-items: center;
     background-color: #fcfcfc;
@@ -34,7 +37,6 @@ nav ul{
 }
 nav ul li a{
     text-decoration: none;
-    font-size: 1.2em;
     color: #4756df;
 }
 nav ul li a:hover{
@@ -43,24 +45,50 @@ nav ul li a:hover{
 
 #hero{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    justify-content: space-around;
-    gap : 10px;
+    justify-content: space-between;
 }
 #hero-greeting{
-    margin : 70px 160px;
-    padding: 20px 80px;
-}
-#hero-greeting h1{
-    margin-bottom: 15px;
+    margin : 70px 0; 
+    margin-left: 150px;
+    padding: 20px 100px; 
+    color: rgb(64, 64, 64);
+    font-size: 20px;
 }
 
-#hero-greeting p{
-    margin-bottom: 10px;
-}
 #hero-image{
-    margin : 70px 20px;
-    padding: 20px 100px;
+    margin : 70px 0; 
+    margin-right: 150px;
+    padding: 20px 50px; 
 }
+
+footer{   
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+    padding: 0px 210px; 
+    
+}
+#contact ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding-top: 10px;
+    font-size: large;
+}
+#contact ul li a{
+    text-decoration: none;
+    color: #4756df;
+}
+#contact ul li a:hover{
+    color: #ff7235;
+}
+#copyright{
+    padding-top: 10px;
+
+}
+
 
